@@ -11,7 +11,7 @@ set.seed(1234)
 
 setup(x=ecls.comp,)
 
-na <- NAControl(NArate=.05)
+na <- NAControl(target=c(""),NArate=c(.05))
 
 
 sim <- function(x, orig) {
