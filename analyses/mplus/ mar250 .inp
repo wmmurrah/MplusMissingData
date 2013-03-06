@@ -1,0 +1,5 @@
+TITLE: Your title goes here
+DATA: FILE = "data/mplus/ mar250 .dat";
+VARIABLE: NAMES = x1_mar x2_mar x3_mar y;
+
+MISSING=.;
